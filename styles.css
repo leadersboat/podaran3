@@ -1,0 +1,823 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* width: 100%;     */
+    overflow-x: hidden;    
+}
+
+.background-image {
+    background-image: url('./frame-with-leaves-it-frame-with-words-autumn-it.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 115vh; /* Adjust height as per your requirement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1400px; /* Adjust width as per your requirement */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    object-fit: cover;    
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+/* 
+carousel END*/
+
+.ProductList{
+    margin: 0;
+    padding: 0;
+    overflow-Y: hidden;
+    box-sizing: border-box;
+}
+/********************************************************************/
+/* 
+POTATOCHIPS - START
+*/
+
+.title-Chips{
+    position: absolute;
+    top: 1%;
+    color: white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3rem;
+}
+
+.background-chips{
+    width: 100%;   
+    height: 370vh; 
+    /* position: relative;    */
+    margin-bottom: -5px;
+}
+.potato{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+   
+}
+.chipsSubtitle{
+    color:white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.SectionChips{
+    position: relative;
+    width: 100%;
+}
+
+/* 
+POTATOCHIPS - END
+*/
+/********************************************************************/
+/* 
+MURUKU  - START
+*/
+.title-Muruku{
+    position: absolute;
+    top: 1%;
+    color: white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.background-muruku{
+    width: 100%;   
+    height: 530vh; 
+    margin-bottom: -5px;
+}
+
+.muruku{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.SectionMuruku{
+    position: relative;
+}
+
+.MurukuSubtitle{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+   
+}
+
+.doubleRing img{
+    margin-left: 2rem;
+}
+
+.Minikuzhal img{
+    margin-left: 3rem;
+}
+
+.minimullu img{
+    margin-left: 3rem;
+}
+
+.spring {
+    margin-left: 3rem;
+}
+
+.thenkuzhal {
+    margin-left: 3rem;
+}
+/* 
+MURUKU  - END
+*/
+/********************************************************************/
+/* 
+SWEETS  - START
+*/
+.SectionSweets{
+    position: relative;
+}
+.background-sweets{
+    width: 100%;
+    height: 390vh;   
+    margin-bottom: -5px;
+}
+.title-Sweets{
+    position: absolute;
+    top: 1%;
+    color: rgb(54, 6, 141);
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+.sweets{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+.SweetSubtitle{
+    color:rgb(54, 6, 141);
+    font-size: 2rem;
+    text-align: center;
+}
+/* 
+SWEETS  - END
+*/
+/********************************************************************/
+/* 
+NEW ADDITION  - START
+*/
+
+.SectionNewAddition{
+    position: relative;
+}
+
+.background-NewAddition{
+    width: 100%;
+    height: 490vh;   
+    margin-bottom: -5px;
+}
+
+.NewLaunch{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-NewLauch{
+    position: absolute;
+    top: 1%;
+    color:white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.NewAdditionSubtitle{
+    color:white;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+/* 
+NEW ADDITION  - END
+*/
+/********************************************************************/
+/* 
+HEALTHY - START
+*/
+
+.SectionHealthy{
+    position: relative;
+}
+
+.background-Healthy{
+    width: 100%;
+    height: 430vh;   
+    margin-bottom: -8px;
+}
+
+.Healthy{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-Healthy{
+    position: absolute;
+    top: 1%;
+    color:rgb(129, 4, 4);
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.HealthySubtitle{
+    color:rgb(129, 4, 4);
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+
+/* 
+HEALTHY - END
+*/
+/********************************************************************/
+/* 
+TRADITION - START
+ */
+
+ .SectionTradition{
+    position: relative;
+ }
+
+ .background-Tradition{
+    width: 100%;
+    height: 470vh;   
+    margin-bottom: -5px;
+ }
+
+ .Tradition{
+    position: absolute;
+    width: 100%;
+    top:6%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+ }
+
+ .title-Tradition{
+    position: absolute;
+    top: 1%;
+    color:rgb(129, 4, 4);
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+ }
+
+ .TraditionSubtitle{
+    color:rgb(160, 5, 5);
+    font-size: 2rem;
+ }
+
+ /* 
+TRADITION -END
+ */
+/********************************************************************/
+ /* 
+ PARTY-PACK - START
+  */
+
+.SectionPartyPacks{
+    position: relative;
+}
+
+.background-PartyPacks{
+    width: 100%;
+    height: 260vh;   
+    margin-bottom: -5px;
+}
+
+.PartyPacks{
+    position: absolute;
+    width: 100%;
+    top:10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-Party{
+    position: absolute;
+    top: 1%;
+    color:white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+}
+
+.PartySubtitle{
+    color: white;
+    font-size: 2rem;
+}
+
+ /* 
+ PARTY-PACK - END
+  */
+/********************************************************************/
+/* 
+HIGHSALE - START 
+*/
+
+.SectionHighSale{
+    position: relative;
+}
+
+.background-HighSale{
+    width: 100%;
+    height: 300vh;   
+    margin-bottom: -5px;
+}
+
+.HighSale{
+    position: absolute;
+    width: 100%;
+    top:10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-HighSale{
+    position: absolute;
+    top: 1%;
+    color:white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3rem;
+}
+
+.HighSaleSubtitle{
+    color: white;
+    font-size: 2rem;
+}
+
+/* 
+HIGHSALE - END 
+*/
+/********************************************************************/
+/* 
+DEMAND - START 
+*/
+.SectionDemand{
+    position: relative;
+}
+
+.background-Demand{
+    width: 100%;
+    height: 310vh;   
+    margin-bottom: -5px;
+}
+
+.Demand{
+    position: absolute;
+    width: 100%;
+    top:10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    place-items:center;
+    gap:1%;
+}
+
+.title-Demand{
+    position: absolute;
+    top: 1%;
+    color:white;
+    text-align: center;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3rem;
+}
+
+.DemandSubtitle{
+    color: white;
+    font-size: 2rem;
+}
+/* 
+DEMAND - START 
+*/
+/********************************************************************/
+/* 
+RESPPONSIVE LAYOUT 
+*/
+/********************************************************************/
+
+@media (min-width: 575px) {
+    /* POTATOCHIPS - START */
+.potato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:8%;
+}
+.background-chips{
+    height: 230vh; 
+}
+
+/* MURUKU */
+.muruku{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.background-muruku{       
+    height: 310vh;       
+}
+
+/* SWEETS  */
+.sweets{
+    display: grid;
+    grid-template-columns: 1fr;
+    top:8%;
+}
+.background-sweets{
+    height: 400vh;
+}
+
+/* NEW ADDITION */
+
+.NewLaunch{
+    display: grid;
+    grid-template-columns: 1fr;
+    top:8%;
+}
+
+.background-NewAddition{
+    height: 500vh;
+}
+
+
+}
+
+/********************************************************************/
+
+@media (min-width: 768px) {
+     /* POTATOCHIPS - START */
+    .potato{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        top:8%;
+    }
+    .background-chips{
+        height: 220vh; 
+    }
+
+    /* MURUKU */
+.muruku{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:8%;
+}
+
+.background-muruku{       
+    height: 310vh;       
+}
+    /* SWEETS */
+.sweets{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:8%;
+}
+
+.background-sweets{
+    height: 230vh;
+}
+
+/* NEW ADDITION */
+
+.NewLaunch{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:8%;
+}
+.background-NewAddition{
+    height: 260vh;
+}
+
+/* HEALTH */
+
+.Healthy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:10%;
+}
+
+.background-Healthy{
+    height: 260vh;
+}
+
+/* TRADITION */
+.Tradition{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:10%;
+}
+
+.background-Tradition{
+    height: 250vh;
+}
+
+/* PARTY-PACK */
+.PartyPacks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:15%;
+}
+
+.background-PartyPacks{
+    height: 140vh;
+}
+
+/* HIGHSALE */
+
+.HighSale{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:12%;
+}
+
+.background-HighSale{
+    height: 190vh;
+}
+
+/* Demand */
+
+.Demand{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top:12%;
+}
+
+.background-Demand{
+    height: 190vh;
+}
+}
+
+/********************************************************************/
+
+@media (min-width: 992px) {
+     /* POTATOCHIPS - START */
+    .potato{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    .background-chips{
+        height: 180vh; 
+    }
+
+    /* MURUKU */
+.muruku{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top:10%;
+}
+.title-Muruku{
+    font-size: 3rem;
+}
+.background-muruku{       
+    height: 210vh;       
+}
+    /* SWEETS */
+.sweets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top:12%;
+}
+.background-sweets{
+    height: 190vh;
+}
+
+.title-Sweets{
+    font-size: 3rem;
+}
+/* NEW ADDITION */
+
+.NewLaunch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top:14%;
+}
+.background-NewAddition{
+    height: 210vh;
+}
+
+.title-NewLauch{
+    font-size: 3rem;
+}
+
+/* HEALTH */
+
+.Healthy{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top:13%;
+}
+
+.background-Healthy{
+    height: 200vh;
+}
+
+.title-Healthy{
+    font-size: 3rem; 
+}
+
+/* TRADITION */
+.Tradition{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top:13%;
+}
+
+.background-Tradition{
+    height: 200vh;
+}
+ 
+/* PARTY-PACK */
+.PartyPacks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top:17%;
+}
+
+.background-PartyPacks{
+    height: 150vh;
+}
+
+/* HIGHSALE */
+
+.HighSale{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top:16%;
+}
+
+.background-HighSale{
+    height: 140vh;
+}
+
+/* Demand */
+
+.Demand{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top:16%;
+}
+
+.background-Demand{
+    height: 140vh;
+}
+}
+
+/********************************************************************/
+
+@media (min-width: 1200px) {        
+     /* POTATOCHIPS - START */
+
+     .title-Chips{
+        font-size: 1.7rem;
+    }
+    .potato{
+        top:15%;
+    }
+
+    /* MURUKU */
+     .muruku{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        top:11%;
+    }
+    
+    .background-muruku{       
+        height: 210vh;       
+    }
+
+    /* Tradition */
+    .Tradition{
+        top:15%;
+    }
+    
+    .title-Tradition{
+        font-size: 3rem;
+    }
+    /* PARTY-PACK */
+    .PartyPacks{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        top:25%;
+    }
+
+    .background-PartyPacks{
+    height: 100vh;
+    }
+
+    .title-Party{
+        font-size: 3rem;
+    }
+
+    .title-HighSale{
+        font-size: 3rem;
+    }
+
+    .title-Demand{
+        font-size: 3rem;
+    }
+   
+}
+
+@media (min-width: 1400px) {
+}
+
+
+
